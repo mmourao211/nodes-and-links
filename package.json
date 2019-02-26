@@ -12,7 +12,7 @@
     "build:browser:prod": "ng build --prod",
     "build:prod": "npm run build:browser:prod && npm run build:server:prod",
     "server": "node local.js",
-    "build:browser:serverless": "ng build --prod --base-href /production/",
+    "build:browser:serverless": "ng build --prod --base-href /",
     "build:serverless": "npm run build:browser:serverless && npm run build:server:serverless",
     "build:prod:deploy": "npm run build:prod && npm run deploy",
     "build:serverless:deploy": "npm run build:serverless && npm run deploy",

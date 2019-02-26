@@ -1,0 +1,22 @@
+{
+  "universal": {
+    "project": "nodes-and-links",
+    "skipInstall": false,
+    "directory": ".",
+    "http": true
+  },
+  "serverless": {
+    "--": [
+      "—-provider",
+      "aws"
+    ],
+    "project": "nodes-and-links",
+    "provider": "aws",
+    "skipInstall": false,
+    "directory": ".",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}
